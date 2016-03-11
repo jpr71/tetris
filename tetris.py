@@ -175,23 +175,30 @@ if __name__ == '__main__':
     screen = Screen(height, width)
     block = Block()
     new_block_coming(screen, block)
+    
     print screen
+
     pyautogui.press('return')
     commands = raw_input()
     pyautogui.keyDown('enter')
+
     while commands != 'EOF':
         try:
             down(screen, block)
+
         except:
             block = Block()
+
             try:
                 new_block_coming(screen, block)
             except:
                 print "GAME OVER"
                 pyautogui.hotkey('ctrl', 'c')
+
         for command in commands:
             if command in moves:
                 moves[command](screen,block)
+
         print screen
         commands = raw_input()
         pyautogui.PAUSE = 0.5
