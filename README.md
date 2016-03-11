@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+# Tetris #
 ## Instructions ##
 (I'm assuming that the user has doesn't have python or pip installed)
 * First make sure you're using python 2.7.10, Macs' already have python installed but just in case go [here] (https://www.python.org/downloads/mac-osx/) and find the 2.7.10 version and select the Mac Installer.
@@ -18,3 +20,5 @@
 	4. s (return): rotate piece clockwise
 
 Enjoy!
+
+
