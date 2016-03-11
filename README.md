@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Tetris #
 ## Instructions ##
 (I'm assuming that the user has doesn't have python or pip installed)
