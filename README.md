@@ -15,10 +15,10 @@
 * You can also run it directly from the command line with: `python tetris.py`
 * Once you have it up and running, the instructions are as follows:
 
-	1. a (return): move piece left
-	2. d (return): move piece right
-	3. w (return): rotate piece counter clockwise
-	4. s (return): rotate piece clockwise
+	* *a* (return): move piece left
+	* *d* (return): move piece right
+	* *w* (return): rotate piece counter clockwise
+	* *s* (return): rotate piece clockwise
 
 Enjoy!
 
